@@ -148,7 +148,7 @@
     
                     <div class="col col-md-12 col-lg-6 border rounded">
                         
-                           <div class="d-flex align-items-center flex-lg-row flex-md-row flex-sm-column flex-lg-nowrap flex-md-nowrap flex-sm-wrap skill-course-card">
+                           <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                             <div class="me-2">
                                 <img  src="images/course/course-1.png" alt="">
             
@@ -163,7 +163,7 @@
                     </div>
     
                     <!-- javascript course  -->
-                    <div class="col col-md-12 col-lg-6 border rounded d-flex align-items-center flex-sm-column flex-lg-row flex-md-row  skill-course-card">
+                    <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                       
                             <div class="me-2">
                                 <img src="images/course/course-2.png" alt="">
@@ -177,7 +177,7 @@
                     </div>
     
                     <!-- Fullstack Web Development course  -->
-                    <div class="col col-md-12 col-lg-6 border rounded d-flex align-items-center flex-sm-column flex-lg-row flex-md-row  skill-course-card">
+                    <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                         
                             <div class="me-2">
                                 <img src="images/course/course-3.png" alt="">
@@ -191,7 +191,7 @@
                     </div>
     
                     <!-- Digital Marketing course  -->
-                    <div class="col col-md-12 col-lg-6 border rounded d-flex align-items-center flex-sm-column flex-lg-row flex-md-row  skill-course-card">
+                    <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                         
                             <div class="me-2">
                                 <img src="images/course/course-4.png" alt="">
@@ -205,7 +205,7 @@
                     </div>
     
                     <!-- Photography Basic Rules course  -->
-                    <div class="col col-md-12 col-lg-6 border rounded d-flex align-items-center flex-sm-column flex-lg-row flex-md-row  skill-course-card">
+                    <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                        
                             <div class="me-2">
                                 <img src="images/course/course-5.png" alt="">
@@ -219,7 +219,7 @@
                     </div>
     
                     <!-- Motion Graphics course  -->
-                    <div class="col col-md-12 col-lg-6 border rounded d-flex align-items-center flex-sm-column flex-lg-row flex-md-row  skill-course-card">
+                    <div class="d-flex align-items-center flex-lg-row flex-md-row flex-column flex-lg-nowrap flex-md-nowrap flex-wrap">
                        
                             <div class="me-2">
                                 <img src="images/course/course-1.png" alt="">
@@ -245,9 +245,9 @@
 
         <!-- ready to join part started -->
 
-        <section>
-            <div class="bg-info p-5 mt-2 d-flex align-items-center justify-content-between">
-                <div class="text-light">
+        <section class="my-5">
+            <div class="bg-info p-5 mt-2 rounded d-flex align-items-center justify-content-between flex-xs-column flex-column flex-md-column flex-lg-row">
+                <div class="text-light text-md-center text-lg-start">
                     <h2>Ready to join?</h2>
                     <p>By registering with start skill you are getting the largest and best skillset learning hub</p>
                 </div>
@@ -294,6 +294,74 @@
 
         </section>
         <!-- ready to join part ended -->
+
+
+        <!-- FAQ started from here  -->
+
+        <section>
+            <div class="text-center mb-3">
+                <h2>Frequently Asked Questions</h2>
+                <p>Check some most asked questions by our visitors and registered students</p>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What is the difference between flexbox and grid?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        1. Flexbox is one dimensional layout and Grid is two-dimensional layout. <br>
+                        2. Flexbox cann't do Overlapping, but Grid can do that.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What are the differences between bootstrap vs tailwind css?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     1. Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit,Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What is CSS Box Model?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        What is HTML Semantic tag? Please also give example.
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages. Example: form, table, and article etc tags.  which Clearly defines its content.
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+        </section>
+
+        <!-- FAQ ended from here  -->
+
 
     </main>
 
