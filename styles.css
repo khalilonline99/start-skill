@@ -47,4 +47,10 @@
         width: 300px;
 
     }
+
+    .skill-course-card{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
