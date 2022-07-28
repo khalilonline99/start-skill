@@ -11,12 +11,13 @@
 }
 
 
-
 .skill-slider-caption {
     margin: 100px 0;
 }
 
-
+.skill-course-width{
+    width: 450px;
+}
 /* For tablet view  */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -42,6 +43,8 @@
         object-fit: cover;
 
     }
+    .skill-course-width{
+        width: 300px;
 
-
+    }
 }
