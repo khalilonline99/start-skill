@@ -18,6 +18,11 @@
 .skill-course-width{
     width: 450px;
 }
+
+.skill-explore-color{
+    background-color: #F4FAFD;
+}
+
 /* For tablet view  */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
